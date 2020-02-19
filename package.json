@@ -1,0 +1,48 @@
+{
+  "name": "TLDR",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "test": "jest",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "dev-tools": "react-devtools"
+  },
+  "dependencies": {
+    "@n1ru4l/use-async-effect": "^1.1.9",
+    "@react-native-community/async-storage": "^1.8.0",
+    "axios": "^0.19.2",
+    "react": "16.9.0",
+    "react-native": "0.61.5",
+    "react-promise": "^3.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.0",
+    "@babel/runtime": "^7.5.0",
+    "@react-native-community/eslint-config": "^0.0.3",
+    "@types/jest": "^24.0.18",
+    "@types/react": "^16.9.2",
+    "@types/react-native": "^0.61.15",
+    "@types/react-test-renderer": "^16.9.0",
+    "acorn": "^7.1.0",
+    "babel-jest": "^24.1.0",
+    "eslint": "^5.0.0",
+    "jest": "^24.1.0",
+    "metro-react-native-babel-preset": "0.54.1",
+    "react-devtools": "^3.6.3",
+    "react-test-renderer": "16.8.6",
+    "typescript": "^3.6.3"
+  },
+  "jest": {
+    "preset": "react-native",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  }
+}
